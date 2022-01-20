@@ -1,0 +1,56 @@
+form{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    height: 350px;
+    opacity: 0.85;
+    width: 40%;
+}
+p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 5px;
+    outline: none;
+    padding: 0 5px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+}
+.button{
+    background-size: 200% auto;          
+    box-shadow: 0 0 20px #eee;
+    border: none;
+    border-radius: 5px;
+    color: white;  
+    font-size: 16px;
+    height: 35px;
+    margin-bottom: 5px;
+    vertical-align:middle;
+    transition: 0.5s;
+    width: 100%;
+}
+.button:hover{
+    cursor: pointer;
+}
+.add-button{
+   background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%);
+    margin-top: 20px;
+}
+ .add-button:hover{
+   background-position: right center; /* change the direction of the change here */
+ }
+ .cancel-button{
+   background-color: rgb(236, 0, 0);
+ }
+

@@ -1,0 +1,38 @@
+table{
+    padding: 0 50px 0 0;
+    width: 60%;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+td{
+    width: 140px;
+}
+td:nth-child(3){
+    width: 200px;
+}
+td:nth-child(4){
+    width: 70px;
+}
+.actions-container{
+    display: flex;
+    justify-content:end;
+}
+.action{
+    background-size: cover;
+    height: 23px;
+    margin-right: 3px;
+    width: 23px;
+}
+.action:hover{
+    cursor: pointer;
+}
+.edit-button{
+    background-image: url('../assets/edit-icon.png');
+}
+.delete-button{
+    background-image: url('../assets/delete.png');
+}
