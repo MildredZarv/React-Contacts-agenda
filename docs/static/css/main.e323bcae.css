@@ -32,7 +32,7 @@ h2 {
   outline: none;
 }
 .search-icon {
-  background-image: url(./static/media/search.1d92f967297920015306.png);
+  background-image: url(../media/search.1d92f967297920015306.png);
   background-size: cover;
   display: inline-block;
   height: 20px;
@@ -72,10 +72,10 @@ td:nth-child(4) {
   cursor: pointer;
 }
 .edit-button {
-  background-image: url(./static/media/edit-icon.165b9c0af047284e088b.png);
+  background-image: url(../media/edit-icon.165b9c0af047284e088b.png);
 }
 .delete-button {
-  background-image: url(./static/media/delete.2f7bc7723ad530f3b7c4.png);
+  background-image: url(../media/delete.2f7bc7723ad530f3b7c4.png);
 }
 form {
   background-color: #f5f5f5;
