@@ -2,29 +2,37 @@ table{
     padding: 0 50px 0 0;
     width: 60%;
 }
+th,td{
+    word-wrap: break-word;
+}
 tr{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
 }
-td{
-    width: 140px;
+th:nth-child(1), td:nth-child(1){
+    width: 150px;
 }
-td:nth-child(3){
-    width: 200px;
+th:nth-child(2), td:nth-child(2){
+    text-align: center;
+    width: 120px;
 }
-td:nth-child(4){
-    width: 70px;
+th:nth-child(3), td:nth-child(3){
+    text-align: center;
+    width: 215px;
+}
+th:nth-child(4), td:nth-child(4){
+    text-align: center;
+    width: 90px;
 }
 .actions-container{
     display: flex;
-    justify-content:end;
+    justify-content:center;
 }
 .action{
     background-size: cover;
     height: 23px;
-    margin-right: 3px;
+    margin-right: 4px;
     width: 23px;
 }
 .action:hover{

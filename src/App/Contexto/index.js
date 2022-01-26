@@ -4,7 +4,7 @@ const Contexto = createContext();
 
 const contactsDefault = [
     {id: 1, name: 'Julian Diaz', phone: '9512232000', email: 'jdiaz@hotmail.com' },
-    {id: 2, name: 'Diego de la Vega', phone: '557489601', email: 'diegovega@hotmail.com' },
+    {id: 2, name: 'Diego de la Vega', phone: '5517489601', email: 'diegovega@hotmail.com' },
     {id: 3, name: 'Diana Santiago', phone: '9582361524', email: 'diannasantiego@hotmail.com' },
 ];
 
